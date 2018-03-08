@@ -16,7 +16,12 @@
 	- run project using command "Run '{application_name}'" from menu bar or use keyboard shortcut - "shift + F10"
 4. Example usages (using Curl)
 First of all, open terminal to work with Curl.
-	- add new note - 'curl -i -H "Content-Type: application/json" --data @addNote.json http://localhost:8080/addNote'
+	- add new note - 
+	
+	```bash
+	curl -i -H "Content-Type: application/json" --data @addNote.json http://localhost:8080/addNote
+	```
+	
 	- get all added notes - 'curl -i http://localhost:8080/getAllNotes'
 	- update note - 'curl -i -H "Content-Type: application/json" -X PUT --data @updateNote.json http://localhost:8080/updateNote'
 	- delete note - 'curl -i -X DELETE http://localhost:8080/deleteNote/1'
