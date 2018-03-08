@@ -1,11 +1,13 @@
 RESTFUL APPLICATION EXAMPLE
 ===========================
 1. Requirements for running the project
+---------------------------------------
 	- instalation of postgres server v.10
 	- instalation of jdk v.1.8
 	- instalation of IntellijIdea
 	- instalation of Curl
 2. Setting up database
+----------------------
 	- run psql
 	- use standard settings to connect postgres server via psql
 	- create database for application by script: 
@@ -18,11 +20,13 @@ RESTFUL APPLICATION EXAMPLE
 	```
 	- run script to initialize database schema by copying it from "init-script.sql" and paste into psql
 3. Building and running project
+-------------------------------
 	- import project to IntellijIdea (use schema of maven project)
 	- let IntellijIdea automatically download project dependencies
 	- compile project using maven to generate .class files
 	- run project using command "Run '{application_name}'" from menu bar or use keyboard shortcut - "shift + F10"
 4. Example usages (using Curl)
+------------------------------
 First of all, open terminal to work with Curl.
 	- add new note:
 	```bash
